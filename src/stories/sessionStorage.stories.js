@@ -1,5 +1,5 @@
 import React from 'react'
-import SScomponent from './SScomponent'
+import SScomponent from './sessionStorage'
 
 const ex = {
   title: 'Session Storage',

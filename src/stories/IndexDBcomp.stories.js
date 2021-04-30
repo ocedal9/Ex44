@@ -1,12 +1,12 @@
 import React from 'react'
-import LScomponent from './LScomponent'
+import IDBcomponent from './IndexDBcomp'
 
 const ex = {
-  title: 'Local Storage',
-  component: LScomponent,
+  title: 'Indexed DB',
+  component: IDBcomponent,
 }
 
-const Template = (args) => <LScomponent {...args} />
+const Template = (args) => <IDBcomponent {...args} />
 
 export const Hook = Template.bind({})
 Hook.args = {
